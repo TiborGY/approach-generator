@@ -8,11 +8,11 @@
 #include <cassert>
 #include <quadmath.h>
 
-#include "../../common_headers/misc_util.hpp"
-#include "../../common_headers/storageClasses.hpp"
-#include "../../common_headers/XYZ_IO.hpp"
-#include "../../common_headers/atomic_masses.hpp"
-#include "../../common_headers/system_types.hpp"
+#include "../common_headers/misc_util.hpp"
+#include "../common_headers/storageClasses.hpp"
+#include "../common_headers/XYZ_IO.hpp"
+#include "../common_headers/atomic_masses.hpp"
+#include "../common_headers/system_types.hpp"
 
 struct VECT{
 	__float128 x,y,z;
